@@ -10,19 +10,20 @@ This repo contains the source code and documentation powering [reactjs.org](http
 1. Node: install version 8.4 or greater
 1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)
 1. A fork of the repo (for any contributions)
-1. A clone of the [reactjs.org repo](https://github.com/reactjs/reactjs.org) on your local machine
+1. git clone (https://github.com/binstd/bytom) 到您的电脑
 
-### Installation
+### 安装
 
-1. `cd reactjs.org` to go into the project root
-1. `yarn` to install the website's npm dependencies
+1. `cd bytom` 到达根目录
+1. `yarn install ` 或 ` npm install` 安装依赖
 
-### Running locally
+### 本地运行
 
-1. `yarn dev` to start the hot-reloading development server (powered by [Gatsby](https://www.gatsbyjs.org))
+1. `yarn dev` 或 ` npm run dev` to start the hot-reloading development server (powered by [Gatsby](https://www.gatsbyjs.org))
 1. `open http://localhost:8000` to open the site in your favorite browser
 
-## Contributing
+## 同步服务器代码
+1. `yarn git ` 或`  npm run git` to go into the project root
 
 ### Guidelines
 

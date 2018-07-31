@@ -7,6 +7,7 @@
 'use strict';
 
 module.exports = {
+  pathPrefix: "/bytom", 
   siteMetadata: {
     title: 'React: A JavaScript library for building user interfaces',
     siteUrl: 'https://reactjs.org',

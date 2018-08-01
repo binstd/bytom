@@ -48,33 +48,13 @@ class Home extends Component {
     };
   }
 
-  componentDidMount() {
-    const {code, examples} = this.state;
-
-    examples.forEach(({id}) => {
-      renderExamplePlaceholder(id);
-    });
-
-    function mountCodeExamples() {
-      examples.forEach(({id}) => {
-        mountCodeExample(id, code[id]);
-      });
-    }
-
-    loadScript(babelURL).then(mountCodeExamples, error => {
-      console.error('Babel failed to load.');
-
-      mountCodeExamples();
-    });
-  }
-
   render() {
     const {examples, marketing} = this.state;
 
     return (
       <div css={{width: '100%'}}>
         <TitleAndMetaTags
-          title="React - A JavaScript library for building user interfaces"
+          title="Bytom中文文档"
           ogUrl={createOgUrl('index.html')}
         />
         <header
@@ -134,7 +114,7 @@ class Home extends Component {
                       fontSize: 60,
                     },
                   }}>
-                  React
+                  Bytom文档
                 </h1>
                 <p
                   css={{
@@ -156,7 +136,7 @@ class Home extends Component {
                       fontSize: 30,
                     },
                   }}>
-                  A JavaScript library for building user interfaces
+                  比原链（Bytom）中文技术文档
                 </p>
                 <Flex
                   valign="center"
@@ -169,12 +149,12 @@ class Home extends Component {
                   }}>
                   <CtaItem>
                     <ButtonLink to="/docs/getting-started.html" type="primary">
-                      Get Started
+                      文档
                     </ButtonLink>
                   </CtaItem>
                   <CtaItem>
                     <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                      Take the Tutorial
+                      快速开始
                     </ButtonLink>
                   </CtaItem>
                 </Flex>
@@ -275,54 +255,12 @@ class Home extends Component {
                 borderBottom: `1 solid ${colors.divider}`,
               }}
             />
-            <section css={sectionStyles}>
-              <div id="examples">
-                {examples.map((example, index) => (
-                  <div
-                    key={index}
-                    css={{
-                      marginTop: 40,
 
-                      '&:first-child': {
-                        marginTop: 0,
-                      },
-
-                      [media.greaterThan('xlarge')]: {
-                        marginTop: 80,
-                      },
-                    }}>
-                    <h3 css={headingStyles}>{example.title}</h3>
-                    <div dangerouslySetInnerHTML={{__html: example.content}} />
-                    <div id={example.id} />
-                  </div>
-                ))}
-              </div>
-            </section>
+            
           </div>
         </Container>
 
-        <section
-          css={{
-            background: colors.dark,
-            color: colors.white,
-            paddingTop: 45,
-            paddingBottom: 45,
-          }}>
-          <Container>
-            <Flex valign="center">
-              <CtaItem>
-                <ButtonLink to="/docs/getting-started.html" type="primary">
-                  Get Started
-                </ButtonLink>
-              </CtaItem>
-              <CtaItem>
-                <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                  Take the Tutorial
-                </ButtonLink>
-              </CtaItem>
-            </Flex>
-          </Container>
-        </section>
+    
       </div>
     );
   }
@@ -337,12 +275,7 @@ Home.propTypes = {
   location: PropTypes.object.isRequired,
 };
 
-function renderExamplePlaceholder(containerId) {
-  ReactDOM.render(
-    <h4>Loading code example...</h4>,
-    document.getElementById(containerId),
-  );
-}
+
 
 const CtaItem = ({children, primary = false}) => (
   <div

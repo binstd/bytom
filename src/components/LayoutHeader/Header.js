@@ -14,7 +14,7 @@ import {version} from 'site-constants';
 import ExternalLinkSvg from 'templates/components/ExternalLinkSvg';
 import DocSearch from './DocSearch';
 
-import logoSvg from 'icons/logo.svg';
+import logoSvg from 'images/logo.png';
 
 const Header = ({location}: {location: Location}) => (
   <header
@@ -86,7 +86,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            React
+            Bytom
           </span>
         </Link>
 
@@ -115,23 +115,18 @@ const Header = ({location}: {location: Location}) => (
           }}>
           <HeaderLink
             isActive={location.pathname.includes('/docs/')}
-            title="Docs"
+            title="文档"
             to="/docs/getting-started.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/tutorial/')}
-            title="Tutorial"
+            title="快速开始"
             to="/tutorial/tutorial.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/community/')}
-            title="Community"
+            title="社群"
             to="/community/support.html"
-          />
-          <HeaderLink
-            isActive={location.pathname.includes('/blog')}
-            title="Blog"
-            to="/blog/"
           />
         </nav>
 
@@ -182,7 +177,7 @@ const Header = ({location}: {location: Location}) => (
                 borderRadius: 15,
               },
             }}
-            href="https://github.com/facebook/react/"
+            href="https://github.com/binstd/bytom"
             target="_blank"
             rel="noopener">
             GitHub

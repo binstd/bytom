@@ -60,7 +60,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             },
           }}>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Docs</MetaTitle>
+            <MetaTitle onDark={true}>文档</MetaTitle>
             {sectionListDocs.map(section => {
               const defaultItem = section.items[0];
               return (
@@ -73,52 +73,41 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             })}
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Channels</MetaTitle>
+            <MetaTitle onDark={true}>链接</MetaTitle>
             <ExternalFooterLink
-              href="https://github.com/facebook/react"
+              href="https://github.com/binstd/bytom"
               target="_blank"
               rel="noopener">
               GitHub
             </ExternalFooterLink>
             <ExternalFooterLink
-              href="http://stackoverflow.com/questions/tagged/reactjs"
+              href="https://bytom.io"
               target="_blank"
               rel="noopener">
-              Stack Overflow
+              比原官方
             </ExternalFooterLink>
             <ExternalFooterLink
-              href="https://discuss.reactjs.org"
+              href="https://zhuanlan.zhihu.com/c_70334329"
               target="_blank"
               rel="noopener">
-              Discussion Forum
+              知乎专栏
             </ExternalFooterLink>
             <ExternalFooterLink
-              href="https://discord.gg/0ZcbPKXt5bZjGY5n"
+              href="http://www.binstd.com/"
               target="_blank"
               rel="noopener">
-              Reactiflux Chat
+              BinSTD
             </ExternalFooterLink>
             <ExternalFooterLink
-              href="https://dev.to/t/react"
+              href=""
               target="_blank"
               rel="noopener">
-              DEV Community
+              微信公众号
             </ExternalFooterLink>
-            <ExternalFooterLink
-              href="https://www.facebook.com/react"
-              target="_blank"
-              rel="noopener">
-              Facebook
-            </ExternalFooterLink>
-            <ExternalFooterLink
-              href="https://twitter.com/reactjs"
-              target="_blank"
-              rel="noopener">
-              Twitter
-            </ExternalFooterLink>
+
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Community</MetaTitle>
+            <MetaTitle onDark={true}>社区</MetaTitle>
             {sectionListCommunity.map(section => (
               <FooterLink
                 to={`/community/${section.items[0].id}.html`}
@@ -128,18 +117,10 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             ))}
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>More</MetaTitle>
-            <FooterLink to="/tutorial/tutorial.html">Tutorial</FooterLink>
-            <FooterLink to="/blog/">Blog</FooterLink>
-            <FooterLink to="/acknowledgements.html">
-              Acknowledgements
-            </FooterLink>
-            <ExternalFooterLink
-              href="http://facebook.github.io/react-native/"
-              target="_blank"
-              rel="noopener">
-              React Native
-            </ExternalFooterLink>
+            <MetaTitle onDark={true}>更多</MetaTitle>
+            <FooterLink to="">QQ开发群</FooterLink>
+            <FooterLink to="">微信开发群</FooterLink>
+
           </FooterNav>
         </div>
         <section
@@ -162,11 +143,11 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             },
           }}>
           <a
-            href="https://code.facebook.com/projects/"
+            href="https://bytom.io"
             target="_blank"
             rel="noopener">
             <img
-              alt="Facebook Open Source"
+              alt="logo"
               css={{
                 maxWidth: 160,
                 height: 'auto',
@@ -179,7 +160,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               color: colors.subtleOnDark,
               paddingTop: 15,
             }}>
-            Copyright © 2018 Facebook Inc.
+            Copyright © 2018 binstd Inc.
           </p>
         </section>
       </div>

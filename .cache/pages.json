@@ -605,13 +605,6 @@
         "componentChunkName": "component---src-templates-community-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "community-support-html.json",
-        "path": "/community/support.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-community-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "community-meetups-html.json",
         "path": "/community/meetups.html"
     },
@@ -978,13 +971,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "docs-fragments-html.json",
         "path": "/docs/fragments.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-docs-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-getting-started-html.json",
-        "path": "/docs/getting-started.html"
     },
     {
         "componentChunkName": "component---src-templates-docs-js",
@@ -2152,13 +2138,6 @@
         "componentChunkName": "component---src-templates-docs-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-dashboard-work-html.json",
-        "path": "/docs/bytomanalysis-dashboard-work.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-docs-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "docs-bytomanalysis-create-key-html.json",
         "path": "/docs/bytomanalysis-create-key.html"
     },
@@ -2187,22 +2166,8 @@
         "componentChunkName": "component---src-templates-docs-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-list-transactions-html.json",
-        "path": "/docs/bytomanalysis-list-transactions.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-docs-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "docs-bytomanalysis-listening-p-2-p-port-html.json",
         "path": "/docs/bytomanalysis-listening-P2P-port.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-docs-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-howto-listening-port-html.json",
-        "path": "/docs/bytomanalysis-howto-listening-port.html"
     },
     {
         "componentChunkName": "component---src-templates-docs-js",
@@ -2215,15 +2180,43 @@
         "componentChunkName": "component---src-templates-docs-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-transfer-detail-html.json",
-        "path": "/docs/bytomanalysis-transfer-detail.html"
+        "jsonName": "docs-bytomanalysis-mining-process-html.json",
+        "path": "/docs/bytomanalysis-mining-process.html"
     },
     {
         "componentChunkName": "component---src-templates-docs-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-mining-process-html.json",
-        "path": "/docs/bytomanalysis-mining-process.html"
+        "jsonName": "docs-getting-started-html.json",
+        "path": "/docs/getting-started.html"
+    },
+    {
+        "componentChunkName": "component---src-templates-community-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "community-support-html.json",
+        "path": "/community/support.html"
+    },
+    {
+        "componentChunkName": "component---src-templates-docs-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "docs-bytomanalysis-transfer-html.json",
+        "path": "/docs/bytomanalysis-transfer.html"
+    },
+    {
+        "componentChunkName": "component---src-templates-docs-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "docs-bytomanalysis-howto-listening-port-html.json",
+        "path": "/docs/bytomanalysis-howto-listening-port.html"
+    },
+    {
+        "componentChunkName": "component---src-templates-docs-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "docs-bytomanalysis-dashboard-work-html.json",
+        "path": "/docs/bytomanalysis-dashboard-work.html"
     },
     {
         "componentChunkName": "component---src-templates-docs-js",
@@ -2236,8 +2229,15 @@
         "componentChunkName": "component---src-templates-docs-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "docs-bytomanalysis-transfer-html.json",
-        "path": "/docs/bytomanalysis-transfer.html"
+        "jsonName": "docs-bytomanalysis-list-transactions-html.json",
+        "path": "/docs/bytomanalysis-list-transactions.html"
+    },
+    {
+        "componentChunkName": "component---src-templates-docs-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "docs-bytomanalysis-transfer-detail-html.json",
+        "path": "/docs/bytomanalysis-transfer-detail.html"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",

@@ -1,4 +1,4 @@
-- title: Community Resources
+- title: 社群资源
   items:
     - id: support
       title: Support
@@ -18,25 +18,23 @@
       title: Examples
     - id: external-resources
       title: External Resources
-- title: Tools
-  items:
-    - id: debugging-tools
-      title: Debugging
-    - id: component-workbenches
-      title: Component Workbenches
-    - id: jsx-integrations
-      title: JSX Integrations
-    - id: starter-kits
-      title: Starter Kits
-    - id: routing
-      title: Routing
-    - id: model-management
-      title: Model Management
-    - id: data-fetching
-      title: Data Fetching
-    - id: testing
-      title: Testing
-    - id: ui-components
-      title: UI Components
-    - id: misc
-      title: Miscellaneous
+# - title: Tools
+#  items:
+#      title: Debugging
+#      title: Component Workbenches
+#    - id: jsx-integrations
+#      title: JSX Integrations
+#    - id: starter-kits
+#      title: Starter Kits
+#    - id: routing
+#      title: Routing
+#    - id: model-management
+#      title: Model Management
+#    - id: data-fetching
+#      title: Data Fetching
+#    - id: testing
+#      title: Testing
+#    - id: ui-components
+#      title: UI Components
+#    - id: misc
+#      title: Miscellaneous

@@ -119,11 +119,6 @@ const Header = ({location}: {location: Location}) => (
             to="/docs/getting-started.html"
           />
           <HeaderLink
-            isActive={location.pathname.includes('/tutorial/')}
-            title="快速开始"
-            to="/tutorial/tutorial.html"
-          />
-          <HeaderLink
             isActive={location.pathname.includes('/community/')}
             title="社群"
             to="/community/support.html"
@@ -177,7 +172,7 @@ const Header = ({location}: {location: Location}) => (
                 borderRadius: 15,
               },
             }}
-            href="https://github.com/binstd/bytom"
+            href="https://github.com/binstd/bytom" 
             target="_blank"
             rel="noopener">
             GitHub

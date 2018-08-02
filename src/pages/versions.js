@@ -18,13 +18,13 @@ const Versions = () => (
   <Container>
     <div css={sharedStyles.articleLayout.container}>
       <div css={sharedStyles.articleLayout.content}>
-        <Header>React Versions</Header>
-        <TitleAndMetaTags title="React - Versions" />
+        <Header>Bytom Versions</Header>
+        <TitleAndMetaTags title="Bytom - Versions" />
         <div css={sharedStyles.markdown}>
           <p>
-            A complete release history for React is available{' '}
+            A complete release history for Bytom is available{' '}
             <a
-              href="https://github.com/facebook/react/releases"
+              href="https://github.com/binstd/bytom"
               target="_blank"
               rel="noopener">
               on GitHub
